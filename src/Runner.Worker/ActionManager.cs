@@ -1177,6 +1177,8 @@ namespace GitHub.Runner.Worker
         public string Pre { get; set; }
 
         public string Post { get; set; }
+
+        public string NodeVersion { get; set; }
     }
 
     public sealed class PluginActionExecutionData : ActionExecutionData
